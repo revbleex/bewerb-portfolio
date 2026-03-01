@@ -14,12 +14,12 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-900" style={{backgroundImage: "linear-gradient(rgba(17, 24, 39, 0.92), rgba(17, 24, 39, 0.92)), url('/bakery-working.jpg')", backgroundAttachment: 'fixed', backgroundSize: 'cover', backgroundPosition: 'center'}}>
+    <div className="min-h-screen bg-gray-900" style={{backgroundImage: "linear-gradient(rgba(17, 24, 39, 0.92), rgba(17, 24, 39, 0.92)), url('./bakery-working.jpg')", backgroundAttachment: 'fixed', backgroundSize: 'cover', backgroundPosition: 'center'}}>
       <header className="bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 backdrop-blur-md border-b border-amber-500/20 text-white py-20 px-6">
         <div className="max-w-6xl mx-auto">
           <div className="flex justify-end gap-4 mb-12">
             <a
-              href="/DOSSIER_BEWERB.pdf"
+              href="./DOSSIER_BEWERB.pdf"
               download
               className="flex items-center gap-2 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-white px-6 py-2 rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-amber-500/50 font-medium"
             >
@@ -51,7 +51,7 @@ function App() {
             </div>
             <div className="w-96 rounded-2xl overflow-hidden shadow-2xl border-2 border-amber-500/30 hover:border-amber-500 transition-all duration-300 hover:shadow-amber-500/20">
               <img
-                src="/PROFIL.GPJ.jpeg"
+                src="./PROFIL.GPJ.jpeg"
                 alt="Profil"
                 className="w-full h-auto"
               />
@@ -153,7 +153,7 @@ function App() {
                 <div key={index} className="flex items-center justify-between py-3 border-b border-gray-700/50 last:border-0 hover:bg-gray-700/30 px-4 rounded transition-colors">
                   <span className="text-gray-100 text-lg">{doc}</span>
                   <a
-                    href="/DOSSIER_BEWERB.pdf"
+                    href="./DOSSIER_BEWERB.pdf"
                     download
                     className="flex items-center gap-2 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-white px-6 py-2 rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-amber-500/50"
                   >
@@ -235,7 +235,7 @@ function App() {
 
                 <div className="pt-6">
                   <a
-                    href="/DOSSIER_BEWERB.pdf"
+                    href="./DOSSIER_BEWERB.pdf"
                     download
                     className="flex items-center justify-center gap-2 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-white px-8 py-4 rounded-lg transition-all duration-300 font-medium text-lg w-full hover:shadow-lg hover:shadow-amber-500/50"
                   >
