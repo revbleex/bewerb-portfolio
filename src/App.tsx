@@ -49,11 +49,11 @@ function App() {
               <h1 className="text-6xl font-black mb-4 bg-gradient-to-r from-amber-400 to-amber-500 bg-clip-text text-transparent">REDA EL HANAFE</h1>
               <p className="text-2xl text-gray-300">Angehender Konditor</p>
             </div>
-            <div className="w-80 bg-gray-800/60 rounded-2xl overflow-hidden shadow-2xl border-2 border-amber-500/30 hover:border-amber-500 transition-all duration-300 hover:shadow-amber-500/20 flex items-center justify-center">
+            <div className="w-96 rounded-2xl overflow-hidden shadow-2xl border-2 border-amber-500/30 hover:border-amber-500 transition-all duration-300 hover:shadow-amber-500/20">
               <img
                 src="/PROFIL.GPJ.jpeg"
                 alt="Profil"
-                className="w-full h-auto object-contain"
+                className="w-full h-auto"
               />
             </div>
           </div>
